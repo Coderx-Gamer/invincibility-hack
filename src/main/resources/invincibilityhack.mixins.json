@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.invincibilityhack.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "HealthUpdateS2CPacketMixin",
+    "EntityTrackerUpdateS2CPacketMixin",
+    "DeathMessageS2CPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
