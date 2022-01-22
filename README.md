@@ -14,3 +14,4 @@ While invincibility is active you can still take damage server-side but not clie
 Some entities may not render.
 Some player data might not be updated correctly while invincibility mode is active. (such as hunger)
 You cannot pickup items. (you can take items out of chests or any other container though)
+Mobs will not attack you.
