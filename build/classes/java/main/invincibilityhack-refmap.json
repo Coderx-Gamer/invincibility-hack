@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "net/invincibilityhack/mixin/ClientPlayerEntityMixin": {
+      "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+    },
+    "net/invincibilityhack/mixin/EntityTrackerUpdateS2CPacketMixin": {
+      "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_2739;method_11808(Lnet/minecraft/class_2602;)V"
+    },
+    "net/invincibilityhack/mixin/DeathMessageS2CPacketMixin": {
+      "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_5892;method_34143(Lnet/minecraft/class_2602;)V"
+    },
+    "net/invincibilityhack/mixin/HealthUpdateS2CPacketMixin": {
+      "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_2749;method_11832(Lnet/minecraft/class_2602;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/invincibilityhack/mixin/ClientPlayerEntityMixin": {
+        "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+      },
+      "net/invincibilityhack/mixin/EntityTrackerUpdateS2CPacketMixin": {
+        "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_2739;method_11808(Lnet/minecraft/class_2602;)V"
+      },
+      "net/invincibilityhack/mixin/DeathMessageS2CPacketMixin": {
+        "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_5892;method_34143(Lnet/minecraft/class_2602;)V"
+      },
+      "net/invincibilityhack/mixin/HealthUpdateS2CPacketMixin": {
+        "apply(Lnet/minecraft/network/listener/ClientPlayPacketListener;)V": "Lnet/minecraft/class_2749;method_11832(Lnet/minecraft/class_2602;)V"
+      }
+    }
+  }
+}
