@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	net/invincibilityhack/mixin/EntityTrackerUpdateS2CPacketMixin	()Ljava/util/List;	getTrackedValues	method_11809
+METHOD	net/invincibilityhack/mixin/EntityTrackerUpdateS2CPacketMixin	()I	id	method_11807
